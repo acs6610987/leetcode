@@ -12,7 +12,7 @@ import java.util.Stack;
  * }
 **/
 /*
- * O(n) space solution. O(1) solution needs Morris traversal. Writer it later.
+ * O(n) space solution. O(1) solution needs Morris traversal. Write it later.
  */
 public class Solution {
     public void recoverTree(TreeNode root) {
