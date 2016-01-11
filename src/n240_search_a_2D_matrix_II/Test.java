@@ -20,6 +20,6 @@ public class Test {
 				{12, 14, 16, 18, 20},
 				{21, 22, 23, 24, 25}
 		};
-		System.out.println(new Solution().searchMatrix(matrix, 11));
+		System.out.println(new Solution().searchMatrix(matrix, 26));
 	}
 }
