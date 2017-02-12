@@ -12,6 +12,6 @@ public class Test {
 		System.out.println(new Solution().candy(ratings));
 		
 		ratings = new int[]{1,3,4,3,2,1};
-		System.out.println(new Solution().candy(ratings));
+		System.out.println(new Solution().candy(ratings));q
 	}
 }
