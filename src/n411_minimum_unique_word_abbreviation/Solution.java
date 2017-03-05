@@ -22,7 +22,7 @@ public class Solution {
         for(int i = 1; i < binMax; i++){
         	abbrevSize[i] = abbrevSize[i-1];
         	int j = 0;
-        	while(((i-1) & (1 << j)) != 0) {
+        	while(((i-1) & (1 << j)) != 0) { // The amortized cost is O(1)
         		abbrevSize[i]--;
         		j++;
         	}
